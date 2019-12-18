@@ -1,13 +1,25 @@
 {
-    "name": "uweaimevan/contact",
-    "description": "This is will send email to people and save data into database",
-    "type": "library",
-    "license": "MIT",
-    "minimum-stability": "dev",
-    "require": {},
-    "autoload-dev": {
-        "psr-4": {
-            "Uweaimevan\\Contact\\": "src/"
-        }
+  "name": "uweaimevan/contact",
+  "description": "This is will send email to people and save data into database",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Uwe Aime Van",
+      "email": "uweaime@gmail.com"
     }
+  ],
+  "prefer-stable": true,
+  "require-dev": {
+    "laravel/framework": "^5.6",
+    "nesbot/carbon": "^1.0",
+    "symfony/thanks": "^1.0",
+    "symfony/console": "^4.0"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Uweaimevan\\Contact\\": "src/"
+    }
+  }
 }
