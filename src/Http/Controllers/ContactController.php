@@ -25,7 +25,7 @@ class ContactController extends Controller
      */
     public function sendEmail(Request $request)
     {
-        Contact::create($request->all());
+//        Contact::create($request->all());
         Mail::to('uweaime@gmail.com')->send(new ContactMailable($request->message));
         return redirect(route('contact.get'));
     }
