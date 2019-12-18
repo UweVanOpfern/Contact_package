@@ -1,0 +1,13 @@
+{
+    "name": "uweaimevan/contact",
+    "description": "This is will send email to people and save data into database",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload-dev": {
+        "psr-4": {
+            "Uweaimevan\\Contact\\": "src/"
+        }
+    }
+}
